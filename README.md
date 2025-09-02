@@ -33,6 +33,8 @@ DriveFX pedal DB9 pinout:
 -Pin 6 - GND → Arduino GND
 -Pin 8 - Brake potentiometer wiper → Arduino A0
 
+---
+
 ## vJoy Setup
 
 Install vJoy and open vJoyConfig.
@@ -41,6 +43,7 @@ Create a device with at least 2 axes (X = Gas, Y = Brake).
 
 No buttons are required unless you plan to add them later.
 
+---
 
 ## vJoySerialFeeder Setup
 
@@ -59,3 +62,5 @@ CH1 → X Axis (Gas)
 CH2 → Y Axis (Brake)
 
 Enable Auto-Scale, or set manual min/max.
+
+---
